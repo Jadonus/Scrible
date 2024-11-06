@@ -17,7 +17,6 @@
 		DE5D29AA2BF79DBE004149AF /* ScribleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5D29A92BF79DBE004149AF /* ScribleTests.swift */; };
 		DE5D29B42BF79DBE004149AF /* ScribleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5D29B32BF79DBE004149AF /* ScribleUITests.swift */; };
 		DE5D29B62BF79DBE004149AF /* ScribleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5D29B52BF79DBE004149AF /* ScribleUITestsLaunchTests.swift */; };
-		DE5D29C92BF79DDE004149AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5D29C42BF79DDE004149AF /* ContentView.swift */; };
 		DE5D29CA2BF79DDE004149AF /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5D29C52BF79DDE004149AF /* MyApp.swift */; };
 		DE5D29CB2BF79DDE004149AF /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5D29C62BF79DDE004149AF /* API.swift */; };
 		DE5EDF042CADD96D0020AD12 /* PageTurner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5EDF032CADD96D0020AD12 /* PageTurner.swift */; };
@@ -33,6 +32,7 @@
 		DECF46702C41810C003157BA /* Bible.json in Resources */ = {isa = PBXBuildFile; fileRef = DECF466F2C41810C003157BA /* Bible.json */; };
 		DECF46792C42AD1C003157BA /* SwipeActions in Frameworks */ = {isa = PBXBuildFile; productRef = DECF46782C42AD1C003157BA /* SwipeActions */; };
 		DED278962CDBD8EA00A83E10 /* Tips.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED278952CDBD8EA00A83E10 /* Tips.swift */; };
+		DED278982CDBE65600A83E10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED278972CDBE62900A83E10 /* ContentView.swift */; };
 		DED63B672C4711BD0004E7D2 /* ScribleIntentsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED63B662C4711BD0004E7D2 /* ScribleIntentsExtension.swift */; };
 		DED63B692C4711BD0004E7D2 /* ScribleIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED63B682C4711BD0004E7D2 /* ScribleIntents.swift */; };
 		DED63B6D2C4711BD0004E7D2 /* ScribleIntents.appex in Embed ExtensionKit Extensions */ = {isa = PBXBuildFile; fileRef = DED63B642C4711BD0004E7D2 /* ScribleIntents.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -94,7 +94,6 @@
 		DE5D29AF2BF79DBE004149AF /* ScribleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScribleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5D29B32BF79DBE004149AF /* ScribleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribleUITests.swift; sourceTree = "<group>"; };
 		DE5D29B52BF79DBE004149AF /* ScribleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribleUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		DE5D29C42BF79DDE004149AF /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../../Downloads/My App copy 4.swiftpm/ContentView.swift"; sourceTree = "<group>"; };
 		DE5D29C52BF79DDE004149AF /* MyApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyApp.swift; sourceTree = "<group>"; };
 		DE5D29C62BF79DDE004149AF /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		DE5EDF032CADD96D0020AD12 /* PageTurner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTurner.swift; sourceTree = "<group>"; };
@@ -109,6 +108,7 @@
 		DEC02BFD2CA494D70049EFEF /* BibleVerseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BibleVerseView.swift; sourceTree = "<group>"; };
 		DECF466F2C41810C003157BA /* Bible.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Bible.json; path = ../../../scrible_Scripts/Bible.json; sourceTree = "<group>"; };
 		DED278952CDBD8EA00A83E10 /* Tips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tips.swift; sourceTree = "<group>"; };
+		DED278972CDBE62900A83E10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DED63B642C4711BD0004E7D2 /* ScribleIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.extensionkit-extension"; includeInIndex = 0; path = ScribleIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		DED63B662C4711BD0004E7D2 /* ScribleIntentsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribleIntentsExtension.swift; sourceTree = "<group>"; };
 		DED63B682C4711BD0004E7D2 /* ScribleIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribleIntents.swift; sourceTree = "<group>"; };
@@ -181,7 +181,6 @@
 				DE5D299B2BF79DBE004149AF /* Assets.xcassets */,
 				DE5D29C62BF79DDE004149AF /* API.swift */,
 				DE7B0A732C20831A00DE85FA /* WordByWordView.swift */,
-				DE5D29C42BF79DDE004149AF /* ContentView.swift */,
 				DE5EDF032CADD96D0020AD12 /* PageTurner.swift */,
 				DE0167EA2C57CB2700A412DF /* ManualChooser.swift */,
 				DE0BF17B2C4DABBC0097AACD /* Notes.swift */,
@@ -189,6 +188,7 @@
 				DEC02BFD2CA494D70049EFEF /* BibleVerseView.swift */,
 				DEE511272C46C3A7007B955A /* Onboarding.swift */,
 				DE93617B2C4565AB000AD641 /* DrawingViews.swift */,
+				DED278972CDBE62900A83E10 /* ContentView.swift */,
 				DE7B0A792C21C60B00DE85FA /* greek.json */,
 				DE7B0A7B2C21D4A800DE85FA /* hebrew.json */,
 				DED63B722C4716130004E7D2 /* navigationmanager.swift */,
@@ -415,8 +415,8 @@
 				DE0BF17C2C4DABBC0097AACD /* Notes.swift in Sources */,
 				DEA527492CB6C3A300B79B71 /* ToolChanger.swift in Sources */,
 				DED278962CDBD8EA00A83E10 /* Tips.swift in Sources */,
-				DE5D29C92BF79DDE004149AF /* ContentView.swift in Sources */,
 				DE7B0A762C21C54800DE85FA /* AncientLanguageDefinitionParseUtil.swift in Sources */,
+				DED278982CDBE65600A83E10 /* ContentView.swift in Sources */,
 				DE0167EB2C57CB2700A412DF /* ManualChooser.swift in Sources */,
 				DE5D29CA2BF79DDE004149AF /* MyApp.swift in Sources */,
 				DED63B732C4716130004E7D2 /* navigationmanager.swift in Sources */,
